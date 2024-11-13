@@ -1,0 +1,71 @@
+# Logs y archivos temporales de Rails
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+postgres_data
+
+# Archivos temporales de pids, cache y sockets
+/tmp/pids/*
+/tmp/cache/*
+/tmp/sockets/*
+/tmp/storage/*
+/*.pid
+
+# Archivos de credenciales y secretos
+/config/master.key
+/config/credentials.yml.enc
+
+# Archivos de bases de datos locales
+/db/*.sqlite3
+/db/*.sqlite3-journal
+/db/*.pg
+/db/*.mysql
+
+# Archivos de resultados de pruebas
+/coverage/
+/spec/reports/
+/spec/examples.txt
+/test/tmp/
+/test/version_tmp/
+/test/report.json
+
+# Archivos de Node.js y Yarn (si usas JavaScript en tu proyecto)
+node_modules/
+/yarn-error.log
+.yarn-integrity
+
+# Archivos de compilación de Webpacker
+/public/packs
+/public/packs-test
+/public/assets
+
+# Archivos de cache de Spring
+.spring/*
+/.sprockets-manifest*
+
+# Archivos de configuración de entorno y gems
+.env
+.bundle
+/vendor/bundle
+.ruby-version
+.ruby-gemset
+/coverage
+/byebug_history
+
+# Archivos de compilación de MSYS2 y RubyInstaller (Windows)
+/vendor/cache/*.gem
+/vendor/ruby
+
+# Archivos específicos de sistema y editor
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Archivos de configuración del editor o IDE
+.idea/
+/.vscode/
+
+# Documentación generada automáticamente
+/doc/
